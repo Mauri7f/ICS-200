@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid rgb(105, 105, 230);
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: gray;
+}
+
+.operator{
+    border: 1px solid turquoise;
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: gray;
+}
+
+.decimal{
+    border: 1px solid rgb(228, 131, 131);
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: gray;
+}
+
+.equal{
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: gray;
+}
+
+#clear-btn{
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: gray;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
